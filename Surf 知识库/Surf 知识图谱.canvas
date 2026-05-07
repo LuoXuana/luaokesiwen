@@ -1,0 +1,216 @@
+{
+	"nodes": [
+		{
+			"id": "a1b2c3d4e5f60001",
+			"type": "text",
+			"x": 400,
+			"y": 0,
+			"width": 300,
+			"height": 80,
+			"text": "# 🏄 Surf 知识库\n\nCS:S Surf 完整知识体系"
+		},
+		{
+			"id": "a1b2c3d4e5f60010",
+			"type": "file",
+			"x": 100,
+			"y": 180,
+			"width": 280,
+			"height": 100,
+			"file": "Surf 知识库/01-基础概念/什么是Surf.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60011",
+			"type": "file",
+			"x": 450,
+			"y": 180,
+			"width": 280,
+			"height": 100,
+			"file": "Surf 知识库/01-基础概念/物理机制.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60020",
+			"type": "file",
+			"x": -50,
+			"y": 380,
+			"width": 260,
+			"height": 100,
+			"file": "Surf 知识库/02-操作技巧/空移系统.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60021",
+			"type": "file",
+			"x": 280,
+			"y": 380,
+			"width": 260,
+			"height": 100,
+			"file": "Surf 知识库/02-操作技巧/转向系统.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60022",
+			"type": "file",
+			"x": 610,
+			"y": 380,
+			"width": 260,
+			"height": 100,
+			"file": "Surf 知识库/02-操作技巧/大跳与跳跃技巧.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60030",
+			"type": "file",
+			"x": 50,
+			"y": 580,
+			"width": 260,
+			"height": 100,
+			"file": "Surf 知识库/03-配置参考/配置总览.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60031",
+			"type": "file",
+			"x": 380,
+			"y": 580,
+			"width": 260,
+			"height": 100,
+			"file": "Surf 知识库/03-配置参考/按键绑定速查.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60040",
+			"type": "file",
+			"x": 730,
+			"y": 580,
+			"width": 260,
+			"height": 100,
+			"file": "Surf 知识库/04-工具与命令/sm命令速查.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60041",
+			"type": "file",
+			"x": 1060,
+			"y": 580,
+			"width": 260,
+			"height": 100,
+			"file": "Surf 知识库/04-工具与命令/net_graph解读.md"
+		},
+		{
+			"id": "a1b2c3d4e5f60050",
+			"type": "text",
+			"x": 100,
+			"y": 120,
+			"width": 180,
+			"height": 50,
+			"text": "📘 **基础概念**"
+		},
+		{
+			"id": "a1b2c3d4e5f60051",
+			"type": "text",
+			"x": -50,
+			"y": 320,
+			"width": 180,
+			"height": 50,
+			"text": "🕹️ **操作技巧**"
+		},
+		{
+			"id": "a1b2c3d4e5f60052",
+			"type": "text",
+			"x": 50,
+			"y": 520,
+			"width": 180,
+			"height": 50,
+			"text": "⚡ **配置参考**"
+		},
+		{
+			"id": "a1b2c3d4e5f60053",
+			"type": "text",
+			"x": 730,
+			"y": 520,
+			"width": 180,
+			"height": 50,
+			"text": "📋 **工具与命令**"
+		}
+	],
+	"edges": [
+		{
+			"id": "e001",
+			"fromNode": "a1b2c3d4e5f60001",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60010",
+			"toSide": "top"
+		},
+		{
+			"id": "e002",
+			"fromNode": "a1b2c3d4e5f60001",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60011",
+			"toSide": "top"
+		},
+		{
+			"id": "e003",
+			"fromNode": "a1b2c3d4e5f60010",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60020",
+			"toSide": "top"
+		},
+		{
+			"id": "e004",
+			"fromNode": "a1b2c3d4e5f60010",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60021",
+			"toSide": "top"
+		},
+		{
+			"id": "e005",
+			"fromNode": "a1b2c3d4e5f60010",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60022",
+			"toSide": "top"
+		},
+		{
+			"id": "e006",
+			"fromNode": "a1b2c3d4e5f60011",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60021",
+			"toSide": "top"
+		},
+		{
+			"id": "e007",
+			"fromNode": "a1b2c3d4e5f60020",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60030",
+			"toSide": "top"
+		},
+		{
+			"id": "e008",
+			"fromNode": "a1b2c3d4e5f60021",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60030",
+			"toSide": "top"
+		},
+		{
+			"id": "e009",
+			"fromNode": "a1b2c3d4e5f60021",
+			"fromSide": "bottom",
+			"toNode": "a1b2c3d4e5f60031",
+			"toSide": "top"
+		},
+		{
+			"id": "e010",
+			"fromNode": "a1b2c3d4e5f60030",
+			"fromSide": "right",
+			"toNode": "a1b2c3d4e5f60031",
+			"toSide": "left"
+		},
+		{
+			"id": "e011",
+			"fromNode": "a1b2c3d4e5f60031",
+			"fromSide": "right",
+			"toNode": "a1b2c3d4e5f60040",
+			"toSide": "left"
+		},
+		{
+			"id": "e012",
+			"fromNode": "a1b2c3d4e5f60031",
+			"fromSide": "right",
+			"toNode": "a1b2c3d4e5f60041",
+			"toSide": "left"
+		}
+	]
+}

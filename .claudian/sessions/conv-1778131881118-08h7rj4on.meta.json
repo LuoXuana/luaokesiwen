@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778131881118-08h7rj4on",
+  "providerId": "claude",
+  "title": "Write Obsidian AI capabilities guide",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778131881120,
+  "updatedAt": 1778137712654,
+  "lastResponseAt": 1778137712654,
+  "sessionId": "08955740-9031-47a3-85cf-6b55ba74eb42",
+  "providerState": {
+    "providerSessionId": "08955740-9031-47a3-85cf-6b55ba74eb42"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 253,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 127104,
+    "contextWindow": 200000,
+    "contextTokens": 127357,
+    "percentage": 64,
+    "contextWindowIsAuthoritative": true
+  }
+}

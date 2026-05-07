@@ -1,0 +1,24 @@
+{
+  "autoCommitMessage": "auto: {{date}}",
+  "autoCommitInterval": 10,
+  "autoPullInterval": 10,
+  "autoPushInterval": 0,
+  "autoBackupAfterFileChange": true,
+  "commitMessage": "vault backup: {{date}}",
+  "showStatusBar": true,
+  "showAuthor": false,
+  "showBranch": true,
+  "splitSource": false,
+  "syncMethod": "merge",
+  "useSimultaneousCommits": false,
+  "mergeTemplate": [
+    "### Details",
+    "- **Files changed**: {{filesChanged}}",
+    "- **Files added**: {{filesAdded}}",
+    "- **Files removed**: {{filesRemoved}}",
+    "- **Files modified**: {{filesModified}}",
+    "",
+    "#### Files changed:",
+    "{{filesChangedList}}"
+  ]
+}

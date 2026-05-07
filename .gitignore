@@ -1,0 +1,22 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude Code
+.claude/sessions/
+.claude/cache/
+.claude/backups/
+.claude/file-history/
+.claude/downloads/
+.claude/shell-snapshots/
+.claude/telemetry/
+.claude/session-env/
+.claude/.last-cleanup
+
+# Node
+node_modules/
