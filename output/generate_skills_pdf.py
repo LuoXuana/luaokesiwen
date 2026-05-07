@@ -26,7 +26,8 @@ styles.add(ParagraphStyle('CNH1', fontName='SimHei', fontSize=16, leading=24,
 styles.add(ParagraphStyle('CNH2', fontName='SimHei', fontSize=12, leading=18,
                           textColor=HexColor('#2980b9'), spaceBefore=12, spaceAfter=6))
 styles.add(ParagraphStyle('CNBody', fontName='SimSun', fontSize=10.5, leading=18,
-                          textColor=HexColor('#2c3e50'), spaceAfter=6, alignment=TA_LEFT))
+                          textColor=HexColor('#2c3e50'), spaceAfter=6, alignment=TA_LEFT,
+                          wordWrap='CJK'))
 styles.add(ParagraphStyle('CNQuote', fontName='KaiTi', fontSize=10, leading=16,
                           textColor=HexColor('#7f8c8d'), leftIndent=16, rightIndent=16,
                           spaceBefore=6, spaceAfter=10))
